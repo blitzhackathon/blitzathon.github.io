@@ -9,15 +9,7 @@ h1 {
     height: 1000px;
 }
 
-.login {
-    width: 20%;
-}
-
-#secondInput {
-    width: 90%;
-}
-
-#loginButton {
-    width: 10%;
-    color: blue;
+.fb-login-button{
+    margin-right: auto;
+    margin-left: auto;
 }

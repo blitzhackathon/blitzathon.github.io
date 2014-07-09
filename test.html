@@ -1,25 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">blue
+<html lang="en">
 <head>
-    <meta charset="utf=8">
-    <style type="text/css">
-        #posts {
-            width: 90%;
-            height: 700px;
-            margin: auto
-        }
-    </style>
+
 </head>
-<body onload="return ran_col()">
-<div id="posts">
-</div>
-<script type="text/javascript">
-    function ran_col() { //function name
-        var color = '#'; // hexadecimal starting symbol
-        var letters = ['000000','FF0000','00FF00','0000FF','FFFF00','00FFFF','FF00FF','C0C0C0']; //Set your colors here
-        color += letters[Math.floor(Math.random() * letters.length)];
-        document.getElementById('posts').style.background = color; // Setting the random color on your div element.
-    }
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1481987642044968&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+alert("Why the hell isn't this working");
+
 </script>
+
+<div class="fb-login-button" data-max-rows="2" data-size="xlarge" data-show-faces="true" data-auto-logout-link="false"></div>
+
+
 </body>
 </html>
