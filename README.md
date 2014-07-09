@@ -1,2 +1,2 @@
-blitzathon.github.io
-====================
+blitzathon
+==========
