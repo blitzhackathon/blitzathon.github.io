@@ -4,3 +4,5 @@ function random_color() { //function name
     aloha = letters[Math.floor(Math.random() * letters.length)];
     document.getElementById('posts').style.background = aloha; // Setting the random color on your div element.
 }
+
+$(".fb-login-button").click(function(){$("#container").hide();});
